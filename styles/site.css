@@ -1,0 +1,101 @@
+#indexContainer{
+    background-image: url('../images/christian.jpg');
+    background-color: rgb(13, 13, 13);
+    background-size: cover;
+    display: flex;
+    height: 778px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+
+#indexTransWrapper{
+    background-color: rgba(0, 0, 0, 0.85);
+    background-size: cover;
+    display: BLOCK;
+    height: 778px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+#indexMain{
+    display: BLOCK;
+    height: 778px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+
+#heading{
+    color: #FFFFFF;
+    margin: 25% 0 0 35%;
+    font-family: 'Play', sans-serif;
+}
+
+#titleImage{
+    height: 170px;
+    width: 170px;
+    margin: 21% 0 0 20%;
+}
+
+#galleryContainer{
+    background-color: #FFFFFF;
+    color: #000000;
+    display: block;
+    height: 778px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+#galleryHead{
+    margin: 25px 0 0 15px;
+    font-family: 'Play', sans-serif;
+}
+.galleryImg{
+    height: 130px;
+    width: 130px;
+}
+
+#galleryTable{
+    width: 100%;
+    margin: auto;
+}
+#galleryTable td{
+    padding: 40px;
+}
+
+#aboutContainer{
+    background-color: rgb(13, 13, 13);
+    display: block;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    pointer-events: auto;
+    position: relative;
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-size: 1.1em;
+}
+
+#aboutContainer p{
+    width: 60%;
+    margin: 0 0 0 50px;
+}
+
+#footer{
+    background-color: #FFFFFF;
+    color: #000000;
+    display: block;
+    height: 78px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.footerText{
+    font-family: 'Play', sans-serif;
+    font-size: .8em;
+}
+
