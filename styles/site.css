@@ -44,7 +44,7 @@
     background-color: #FFFFFF;
     color: #000000;
     display: block;
-    height: 778px;
+    height: 850px;
     overflow-x: hidden;
     overflow-y: hidden;
     position: relative;
@@ -99,3 +99,145 @@
     font-size: .8em;
 }
 
+#indexTransWrapper2{
+    background-color: rgba(0, 0, 0, 0.85);
+    background-size: cover;
+    display: BLOCK;
+    height: 300px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+#indexMain2{
+    display: BLOCK;
+    height: 200px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+#indexContainer2{
+    background-image: url('../images/christian.jpg');
+    background-color: rgb(13, 13, 13);
+    background-size: cover;
+    display: flex;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+
+#titleImage2{
+    height: 100px;
+    width: 100px;
+    margin: 4% 0 0 8%;
+}
+#heading2{
+    color: #FFFFFF;
+    margin: 5% 0 0 9%;
+    font-family: 'Play', sans-serif;
+}
+#galleryContainer2{
+    background-color: #FFFFFF;
+    color: #000000;
+    display: block;
+    height: 450px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+#aboutContainer2{
+    background-color: rgb(13, 13, 13);
+    display: block;
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    pointer-events: auto;
+    position: relative;
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-size: 1.1em;
+}
+
+/*----------------------- modal styling ---------------------*/
+/* Style the Image Used to Trigger the Modal */
+.modalImage {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .modalImage:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 500px;
+    
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #ffffff !important;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(250, 52, 52) !important;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
