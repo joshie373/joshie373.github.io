@@ -84,9 +84,9 @@
     margin: 0 0 0 50px;
 }
 
-#footer{
-    background-color: #FFFFFF;
-    color: #000000;
+footer{
+    background-color: #000000;
+    color: #FFFFFF;
     display: block;
     height: 78px;
     overflow-x: hidden;
